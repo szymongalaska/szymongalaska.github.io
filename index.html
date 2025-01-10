@@ -54,14 +54,14 @@
             color: #6c757d;
         }
 
-        #links img {
+        #links img, #mobile-links img {
             width: 2rem;
         }
     </style>
 </head>
 <body>
-    <header class="text-white d-flex justify-content-between p-4">
-        <div id="links" class="d-flex flex-column gap-2">
+    <header class="text-white d-flex justify-content-center justify-content-sm-between p-4 text-center">
+        <div id="links" class="flex-column gap-2 d-none d-sm-flex">
             <a href="https://www.linkedin.com/in/szymon-ga%C5%82%C4%85ska-91aa68338/" target="_blank"><img src="LinkedIn_icon.svg"></a>
             <a href="https://github.com/szymongalaska"><img src="github-mark-white.svg" target="_blank"></a>
         </div>
@@ -129,6 +129,10 @@
             <h2>Contact Me</h2>
             <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
             <p>Email: <a href="mailto:szymon.galaska.9@gmail.com">szymon.galaska.9@gmail.com</a></p>
+            <div class="d-flex d-sm-none justify-content-center gap-2" id="mobile-links">
+                <a href="https://www.linkedin.com/in/szymon-ga%C5%82%C4%85ska-91aa68338/" target="_blank"><img src="LinkedIn_icon.svg"></a>
+                <a href="https://github.com/szymongalaska"><img src="github-mark-white.svg" target="_blank"></a>
+            </div>
         </section>
     </main>
 

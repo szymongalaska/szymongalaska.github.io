@@ -1,1 +1,139 @@
-TEST
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Szymon Gałąska</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('background.png');
+            background-position: center;
+            background-size: auto;
+            /* background-color:#020713; */
+            background-color: #222222;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .intro {
+            padding: 4rem 2rem;
+            text-align: center;
+            color: #cdcbcb;
+        }
+
+        .intro div
+        {
+            background-color: #0e0e0e9e;
+        }
+        .projects {
+            color: #c1c1c1;
+            padding: 4rem 2rem;
+        }
+        .project-card {
+            margin-bottom: 2rem;
+        }
+        .project-card .card {
+            background: #0e0e0e9e;
+            color: #c1c1c1;
+        }
+        .contact {
+            padding: 4rem 2rem;
+            text-align: center;
+            color: #c1c1c1;
+        }
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        #links img {
+            width: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-white d-flex justify-content-between p-4">
+        <div id="links" class="d-flex flex-column gap-2">
+            <a href="https://www.linkedin.com/in/szymon-ga%C5%82%C4%85ska-91aa68338/" target="_blank"><img src="LinkedIn_icon.svg"></a>
+            <a href="https://github.com/szymongalaska"><img src="github-mark-white.svg" target="_blank"></a>
+        </div>
+        <div>
+            <h1>Szymon Gałąska</h1>
+            <p>Web Developer | Programmer | Tech Enthusiast</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro">
+            <div class="container p-5 rounded text-gray">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I'm Szymon Gałąska, a passionate web developer. Here you can find some of my projects and learn more about my work.</p>
+        </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <div class="container">
+                <h2 class="text-center">My Projects</h2>
+                <div class="row">
+                    <!-- Project 1 -->
+                    <div class="col-md-4 project-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">To-Do Manager</h5>
+                                <p class="card-text">A task management application built with Laravel.</p>
+                                <a href="http://130.162.219.194:8081/" class="btn btn-primary" target="_blank">Live Demo</a>
+                                <a href="https://github.com/szymongalaska/to-do-app/" class="btn btn-secondary" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-md-4 project-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Spotify Manager</h5>
+                                <p class="card-text">using Spotify API built with CakePHP.</p>
+                                <a href="http://130.162.219.194/" class="btn btn-primary" target="_blank">Live Demo</a>
+                                <a href="https://github.com/szymongalaska/spotify" class="btn btn-secondary" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <!-- <div class="col-md-4 project-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">Description of your third project.</p>
+                                <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
+                                <a href="#" class="btn btn-secondary" target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
+            <p>Email: <a href="mailto:szymon.galaska.9@gmail.com">szymon.galaska.9@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Szymon Gałąska. All rights reserved.</p>
+    </footer>
+</body>
+</html>
